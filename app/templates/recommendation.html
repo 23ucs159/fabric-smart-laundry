@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Washing recommendation{% endblock %}
+{% block content %}
+<h1>Washing recommendation</h1>
+<p class="muted">Look up care advice from the knowledge base for any supported fabric, or reload the advice for one of your analyses.</p>
+<div class="grid grid-2">
+  <section class="card">
+    <h2>Choose a fabric</h2>
+    <label for="fabric-select">Fabric</label>
+    <select id="fabric-select"></select>
+    <label class="check"><input type="checkbox" id="rec-dryer" checked> I have a tumble dryer</label>
+    <label class="check"><input type="checkbox" id="rec-gentle"> Prefer the gentlest cycle</label>
+    <button class="btn btn-primary" id="rec-btn" type="button">Show recommendation</button>
+    <hr>
+    <label for="analysis-select">Or use one of my recent analyses</label>
+    <select id="analysis-select"><option value="">Select an analysis</option></select>
+  </section>
+  <section class="card" aria-live="polite"><h2>Recommendation</h2><div id="result"><p class="muted">Choose a fabric to see its care plan.</p></div></section>
+</div>
+{% endblock %}

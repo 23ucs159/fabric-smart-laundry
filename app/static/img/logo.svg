@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fabric Smart Laundry logo">
+  <rect width="64" height="64" rx="15" fill="#2a6fb8"/>
+  <path d="M20 14 L28 10 Q32 17 36 10 L44 14 L53 25 L45 31 L42 28 V51 H22 V28 L19 31 L11 25 Z" fill="#ffffff"/>
+  <g stroke="#2a6fb8" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round">
+    <path d="M25 34 H39 M25 40 H39 M25 46 H39"/>
+    <path d="M28 31 V49 M32 31 V49 M36 31 V49"/>
+  </g>
+  <path d="M50 40 C50 40 45.5 45.2 45.5 48.2 A4.5 4.5 0 0 0 54.5 48.2 C54.5 45.2 50 40 50 40 Z" fill="#9cc9f5" stroke="#ffffff" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,308 @@
+{
+  "cotton": {
+    "display": "Cotton",
+    "aliases": [
+      "cotton"
+    ],
+    "properties": [
+      "breathable",
+      "absorbent",
+      "durable",
+      "easy to wash"
+    ],
+    "overview": "Cotton is a natural plant fibre that is breathable, absorbent and durable, and it handles regular washing well.",
+    "washing_method": "Machine wash, normal or gentle cycle",
+    "wash_modes": [
+      "Normal",
+      "Gentle"
+    ],
+    "temperature": "30–40°C",
+    "max_temp_c": 40,
+    "detergent": "Normal liquid or powder detergent; use a colour-safe detergent for dark colours",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low",
+    "drying_without_dryer": "Air dry (line dry in shade)",
+    "ironing": "Medium (up to 150°C)",
+    "bleaching": "Oxygen bleach on whites only; avoid chlorine bleach on coloured cotton",
+    "special_care": "Avoid excessive heat, which can cause shrinkage; wash dark colours separately",
+    "avoid": "very hot water, overloading the drum, high-heat tumble drying",
+    "rationale": "Cotton generally tolerates moderate washing temperatures, so a 30–40°C wash is recommended."
+  },
+  "silk": {
+    "display": "Silk",
+    "aliases": [
+      "silk",
+      "satin silk"
+    ],
+    "properties": [
+      "smooth",
+      "delicate",
+      "lustrous",
+      "heat sensitive"
+    ],
+    "overview": "Silk is a fine natural protein fibre that is smooth and lustrous but weakens with heat, friction and harsh chemicals.",
+    "washing_method": "Gentle hand wash or delicate machine cycle in a mesh bag",
+    "wash_modes": [
+      "Delicate",
+      "Hand wash"
+    ],
+    "temperature": "Cold, up to 30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild pH-neutral detergent made for delicates",
+    "drying_method": "Air dry flat or hang in shade",
+    "drying_with_dryer": "Do not tumble dry",
+    "drying_without_dryer": "Air dry flat away from direct sunlight",
+    "ironing": "Low (up to 110°C), on the reverse side, no steam",
+    "bleaching": "Do not bleach",
+    "special_care": "Avoid wringing, direct sunlight, and perfume or deodorant sprays that can stain",
+    "avoid": "chlorine bleach, wringing, hot water, long soaking",
+    "rationale": "Silk fibres weaken with heat and harsh detergents, so a gentle, cold wash is recommended."
+  },
+  "wool": {
+    "display": "Wool",
+    "aliases": [
+      "wool",
+      "woolen",
+      "woollen",
+      "cashmere"
+    ],
+    "properties": [
+      "warm",
+      "elastic",
+      "insulating",
+      "shrink-prone"
+    ],
+    "overview": "Wool is a natural animal fibre that is warm and elastic but shrinks and felts when exposed to heat and agitation.",
+    "washing_method": "Wool or gentle cycle, or hand wash",
+    "wash_modes": [
+      "Wool",
+      "Gentle",
+      "Hand wash"
+    ],
+    "temperature": "Cold, up to 30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild wool-safe detergent; avoid enzyme-based detergents",
+    "drying_method": "Dry flat",
+    "drying_with_dryer": "Do not tumble dry",
+    "drying_without_dryer": "Dry flat on a towel and reshape while damp",
+    "ironing": "Low (up to 110°C) with a pressing cloth",
+    "bleaching": "Do not bleach",
+    "special_care": "Avoid high heat and agitation, which cause felting and shrinkage; never hang heavy wet wool",
+    "avoid": "hot water, wringing, tumble drying, harsh detergents",
+    "rationale": "Wool shrinks and felts with heat and agitation, so a cold, gentle wash and flat drying are recommended."
+  },
+  "linen": {
+    "display": "Linen",
+    "aliases": [
+      "linen",
+      "flax"
+    ],
+    "properties": [
+      "breathable",
+      "strong",
+      "absorbent",
+      "wrinkles easily"
+    ],
+    "overview": "Linen is a strong natural fibre made from flax; it is cool and breathable but wrinkles easily.",
+    "washing_method": "Machine wash, gentle or normal cycle",
+    "wash_modes": [
+      "Gentle",
+      "Normal"
+    ],
+    "temperature": "30–40°C",
+    "max_temp_c": 40,
+    "detergent": "Mild detergent",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low and remove while slightly damp",
+    "drying_without_dryer": "Air dry; shake out and smooth while damp",
+    "ironing": "High (up to 200°C), ideally while damp or with steam",
+    "bleaching": "Non-chlorine bleach on whites only",
+    "special_care": "Linen wrinkles easily, so iron while damp; over-drying makes it stiff",
+    "avoid": "chlorine bleach, over-drying, long soaking of coloured linen",
+    "rationale": "Linen is strong but wrinkles and stiffens when over-dried, so a moderate wash and damp ironing are recommended."
+  },
+  "polyester": {
+    "display": "Polyester",
+    "aliases": [
+      "polyester",
+      "poly"
+    ],
+    "properties": [
+      "durable",
+      "quick-drying",
+      "wrinkle resistant",
+      "heat sensitive"
+    ],
+    "overview": "Polyester is a durable synthetic fibre that dries quickly and resists wrinkles, but it is sensitive to high heat.",
+    "washing_method": "Machine wash, normal or synthetic cycle",
+    "wash_modes": [
+      "Normal",
+      "Synthetic"
+    ],
+    "temperature": "30–40°C",
+    "max_temp_c": 40,
+    "detergent": "Normal detergent",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low",
+    "drying_without_dryer": "Air dry",
+    "ironing": "Low (up to 110°C)",
+    "bleaching": "Avoid chlorine bleach",
+    "special_care": "High heat can melt or permanently crease the fibres; avoid hot irons and high-heat dryers",
+    "avoid": "high heat, hot irons, fabric softener build-up",
+    "rationale": "Polyester is heat sensitive, so a moderate wash with a low-temperature iron is recommended."
+  },
+  "denim": {
+    "display": "Denim",
+    "aliases": [
+      "denim",
+      "jeans"
+    ],
+    "properties": [
+      "thick",
+      "durable",
+      "twill weave",
+      "dye bleeds"
+    ],
+    "overview": "Denim is a thick cotton twill that is dyed with indigo, which can fade and bleed in the wash.",
+    "washing_method": "Machine wash inside out, normal cycle",
+    "wash_modes": [
+      "Normal",
+      "Gentle"
+    ],
+    "temperature": "30°C (cold to 30°C)",
+    "max_temp_c": 30,
+    "detergent": "Mild detergent for dark colours",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low",
+    "drying_without_dryer": "Air dry inside out",
+    "ironing": "High (up to 200°C), inside out",
+    "bleaching": "Do not bleach",
+    "special_care": "Wash inside out and separately at first because indigo dye can bleed; wash less often to preserve colour",
+    "avoid": "bleach, hot water, washing with light garments",
+    "rationale": "Denim dye fades with heat and friction, so a cool, inside-out wash is recommended."
+  },
+  "nylon": {
+    "display": "Nylon",
+    "aliases": [
+      "nylon",
+      "polyamide"
+    ],
+    "properties": [
+      "strong",
+      "lightweight",
+      "smooth",
+      "heat sensitive"
+    ],
+    "overview": "Nylon is a strong, lightweight synthetic fibre that is smooth and elastic but melts at high temperatures.",
+    "washing_method": "Machine wash, gentle or synthetic cycle",
+    "wash_modes": [
+      "Gentle",
+      "Synthetic"
+    ],
+    "temperature": "30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild detergent",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low",
+    "drying_without_dryer": "Air dry",
+    "ironing": "Low (up to 110°C), or avoid ironing",
+    "bleaching": "Do not use chlorine bleach (it causes yellowing)",
+    "special_care": "Heat can melt nylon; wash apart from lint-shedding fabrics and use a mesh bag for delicate items",
+    "avoid": "chlorine bleach, high heat, hot irons",
+    "rationale": "Nylon is strong but heat sensitive, so a gentle wash at a low temperature is recommended."
+  },
+  "rayon": {
+    "display": "Rayon",
+    "aliases": [
+      "rayon",
+      "viscose"
+    ],
+    "properties": [
+      "soft",
+      "drapes well",
+      "absorbent",
+      "weak when wet"
+    ],
+    "overview": "Rayon (viscose) is a soft, semi-synthetic fibre made from cellulose that drapes well but is weak when wet.",
+    "washing_method": "Gentle machine cycle or hand wash",
+    "wash_modes": [
+      "Gentle",
+      "Hand wash"
+    ],
+    "temperature": "Cold, up to 30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild detergent",
+    "drying_method": "Air dry; avoid wringing",
+    "drying_with_dryer": "Tumble dry low only if the care label allows",
+    "drying_without_dryer": "Air dry flat or on a padded hanger",
+    "ironing": "Low to medium (up to 150°C) on the reverse side",
+    "bleaching": "Do not bleach",
+    "special_care": "Rayon is weak when wet, so avoid wringing and heat; shrinkage is possible",
+    "avoid": "wringing, hot water, high heat, long soaking",
+    "rationale": "Rayon loses strength when wet and shrinks with heat, so a gentle cold wash is recommended."
+  },
+  "velvet": {
+    "display": "Velvet",
+    "aliases": [
+      "velvet",
+      "velour"
+    ],
+    "properties": [
+      "soft pile",
+      "luxurious",
+      "delicate",
+      "crush marks"
+    ],
+    "overview": "Velvet has a soft raised pile that is easily crushed, and some velvets are dry-clean only.",
+    "washing_method": "Gentle cycle or hand wash; check the label, some velvet is dry-clean only",
+    "wash_modes": [
+      "Gentle",
+      "Hand wash"
+    ],
+    "temperature": "Cold, up to 30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild detergent",
+    "drying_method": "Air dry hanging, without wringing",
+    "drying_with_dryer": "Do not tumble dry",
+    "drying_without_dryer": "Air dry hanging",
+    "ironing": "Do not iron directly; steam from the reverse side",
+    "bleaching": "Do not bleach",
+    "special_care": "Crushing the pile leaves marks; check the care label because some velvets are dry-clean only",
+    "avoid": "wringing, direct ironing, tumble drying",
+    "rationale": "Velvet's pile is easily crushed by heat and pressure, so a gentle cold wash with steam-only finishing is recommended."
+  },
+  "blended": {
+    "display": "Synthetic/Blended",
+    "aliases": [
+      "synthetic",
+      "blended",
+      "blend",
+      "mixed",
+      "poly-cotton",
+      "polycotton"
+    ],
+    "properties": [
+      "mixed fibres",
+      "easy care",
+      "heat sensitive",
+      "varies by blend"
+    ],
+    "overview": "Blended and synthetic fabrics combine fibres, so care must follow the most sensitive fibre in the mix.",
+    "washing_method": "Machine wash, gentle or synthetic cycle",
+    "wash_modes": [
+      "Gentle",
+      "Synthetic"
+    ],
+    "temperature": "30°C",
+    "max_temp_c": 30,
+    "detergent": "Mild or normal detergent",
+    "drying_method": "Air dry or tumble dry low",
+    "drying_with_dryer": "Tumble dry low",
+    "drying_without_dryer": "Air dry",
+    "ironing": "Low (up to 110°C), following the most sensitive fibre",
+    "bleaching": "Avoid bleach unless the label allows it",
+    "special_care": "Follow the care label and use the setting for the most delicate fibre; high heat may shrink, melt or crease the fabric",
+    "avoid": "high heat, hot irons, bleach",
+    "rationale": "Blends should be treated according to their most heat-sensitive fibre, so a gentle 30°C wash is recommended."
+  }
+}

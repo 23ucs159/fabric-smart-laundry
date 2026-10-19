@@ -1,0 +1,430 @@
+{
+  "model_name": "StandardScaler + RandomForest (colour/texture features)",
+  "model_version": "rf-20261016-0408",
+  "trained_at": "2026-10-16T04:08:01+00:00",
+  "classes": [
+    "cotton",
+    "silk",
+    "wool",
+    "linen",
+    "polyester",
+    "denim",
+    "nylon",
+    "rayon",
+    "velvet",
+    "blended"
+  ],
+  "dataset": {
+    "source": "synthetic",
+    "seed": 42,
+    "per_class_counts": {
+      "cotton": 150,
+      "silk": 150,
+      "wool": 150,
+      "linen": 150,
+      "polyester": 150,
+      "denim": 150,
+      "nylon": 150,
+      "rayon": 150,
+      "velvet": 150,
+      "blended": 150
+    },
+    "n_train": 1050,
+    "n_validation": 225,
+    "n_test": 225,
+    "skipped": {}
+  },
+  "validation": {
+    "n_samples": 225,
+    "accuracy": 0.96,
+    "precision_macro": 0.9634,
+    "recall_macro": 0.9605,
+    "f1_macro": 0.961,
+    "per_class": {
+      "cotton": {
+        "precision": 0.9565,
+        "recall": 0.9565,
+        "f1": 0.9565
+      },
+      "silk": {
+        "precision": 1.0,
+        "recall": 0.913,
+        "f1": 0.9545
+      },
+      "wool": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "linen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "polyester": {
+        "precision": 0.8696,
+        "recall": 0.8696,
+        "f1": 0.8696
+      },
+      "denim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "nylon": {
+        "precision": 1.0,
+        "recall": 0.9545,
+        "f1": 0.9767
+      },
+      "rayon": {
+        "precision": 0.8077,
+        "recall": 0.9545,
+        "f1": 0.875
+      },
+      "velvet": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "blended": {
+        "precision": 1.0,
+        "recall": 0.9565,
+        "f1": 0.9778
+      }
+    },
+    "confusion_matrix": [
+      [
+        22,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22
+      ]
+    ],
+    "labels": [
+      "cotton",
+      "silk",
+      "wool",
+      "linen",
+      "polyester",
+      "denim",
+      "nylon",
+      "rayon",
+      "velvet",
+      "blended"
+    ]
+  },
+  "test": {
+    "n_samples": 225,
+    "accuracy": 0.96,
+    "precision_macro": 0.9609,
+    "recall_macro": 0.9593,
+    "f1_macro": 0.9595,
+    "per_class": {
+      "cotton": {
+        "precision": 0.9524,
+        "recall": 0.9091,
+        "f1": 0.9302
+      },
+      "silk": {
+        "precision": 0.9,
+        "recall": 0.8182,
+        "f1": 0.8571
+      },
+      "wool": {
+        "precision": 0.9565,
+        "recall": 0.9565,
+        "f1": 0.9565
+      },
+      "linen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "polyester": {
+        "precision": 0.8,
+        "recall": 0.9091,
+        "f1": 0.8511
+      },
+      "denim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "nylon": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rayon": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "velvet": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "blended": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22
+      ]
+    ],
+    "labels": [
+      "cotton",
+      "silk",
+      "wool",
+      "linen",
+      "polyester",
+      "denim",
+      "nylon",
+      "rayon",
+      "velvet",
+      "blended"
+    ]
+  },
+  "limitations": [
+    "Classical machine-learning baseline using hand-crafted colour and texture features, not a deep CNN.",
+    "Metrics are measured on a held-out split of the dataset named in 'dataset.source' only.",
+    "If the source is 'synthetic', the images are procedurally generated textures, NOT real fabric photographs; the numbers do not predict real-world accuracy. Train on a real labelled dataset for real use.",
+    "Photographs of real garments (folds, lighting, backgrounds) differ strongly from clean texture crops.",
+    "Always verify the care label before washing; predictions are advisory."
+  ]
+}

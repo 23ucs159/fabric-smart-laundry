@@ -1,0 +1,18 @@
+record_id,fabric_type,image_filename,washing_temperature,washing_mode,drying_method,ironing_temperature,label_source,collected_at
+M001,cotton,cotton_001.jpg,40,Normal,Air dry,medium,manual,2026-03-11
+M002,COTTON,cotton_002.jpg,40°C,Normal,Air dry,medium,manual,2026-03-12
+M003,silk,silk_001.jpg,30,Delicate,Air dry,low,expert,2026-03-12
+M004,silk,silk_001.jpg,30,Delicate,Air dry,low,expert,2026-03-12
+M005,,wool_001.jpg,30,Wool,Dry flat,low,manual,2026-03-13
+M006,banana,banana_001.jpg,30,Normal,Air dry,low,manual,2026-03-13
+M007,polyester,poly_001.jpg,250,Normal,Air dry,low,manual,2026-03-14
+M008,polyester,poly_002.jpg,-5,Normal,Air dry,low,manual,2026-03-14
+M009,linen,../../etc/passwd,40,Normal,Air dry,high,manual,2026-03-15
+M010,linen,linen 001<script>.jpg,40,Normal,Air dry,high,manual,2026-03-15
+M011,denim,denim_001.jpg,abc,Normal,Air dry,high,manual,2026-03-16
+M012,denim,denim_002.jpg,30,Normal,Air dry,scorching,manual,2026-03-16
+M013,nylon,nylon_001.gif,30,Gentle,Air dry,low,manual,2026-03-17
+M014,rayon,rayon_001.jpg,,Gentle,,low,manual,2026-03-17
+M015,velvet,velvet_001.jpg,30,Gentle,Air dry,none,manual,not-a-date
+M002,wool,wool_002.jpg,30,Wool,Dry flat,low,manual,2026-03-18
+M017,Synthetic,blend_001.jpg,30,Gentle,Air dry,low,manual,2026-03-18

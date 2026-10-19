@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block content %}
+<h1>History</h1>
+<p id="synthetic-note" class="alert alert-info" hidden>Some rows are <strong>Synthetic Demo Data</strong> (generated, not real activity).</p>
+<section class="card">
+  <div class="inline-form">
+    <label for="filter-fabric">Filter by fabric</label>
+    <select id="filter-fabric"><option value="">All fabrics</option></select>
+  </div>
+  <div class="table-wrap"><table>
+    <caption class="sr-only">Previous fabric analyses</caption>
+    <thead><tr><th>Date</th><th>Fabric</th><th>Confidence</th><th>Washing method</th><th>Temperature</th><th>Drying</th><th>Action</th></tr></thead>
+    <tbody id="history-body"></tbody>
+  </table></div>
+  <div class="pager"><button class="btn" id="prev-page" type="button">Previous</button><span id="page-info" class="muted small"></span><button class="btn" id="next-page" type="button">Next</button></div>
+</section>
+{% endblock %}

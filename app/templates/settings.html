@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block content %}
+<h1>Settings</h1>
+<div class="grid grid-2">
+  <section class="card"><h2>Profile</h2>
+    <form id="profile-form"><label for="s-name">Name</label><input id="s-name" maxlength="80" required>
+    <label for="s-email">Email</label><input id="s-email" disabled>
+    <button class="btn btn-primary" type="submit">Save profile</button></form></section>
+  <section class="card"><h2>Change password</h2>
+    <form id="password-form"><label for="s-cur">Current password</label><input id="s-cur" type="password" autocomplete="current-password" required>
+    <label for="s-new">New password</label><input id="s-new" type="password" autocomplete="new-password" required>
+    <button class="btn btn-primary" type="submit">Change password</button></form></section>
+  <section class="card"><h2>Preferences</h2>
+    <form id="pref-form"><label for="s-theme">Theme</label>
+    <select id="s-theme"><option value="light">Light</option><option value="dark">Dark</option><option value="system">Match my device</option></select>
+    <label class="check"><input type="checkbox" id="s-notify"> Notify me about new features (preference is stored; sending is a future feature)</label>
+    <button class="btn btn-primary" type="submit">Save preferences</button></form></section>
+  <section class="card"><h2>Data management</h2>
+    <p>Delete every analysis and uploaded image in your account. This cannot be undone.</p>
+    <button class="btn btn-danger" id="delete-data" type="button">Delete my analyses</button>
+    <hr><button class="btn" id="logout-btn-2" type="button">Log out</button></section>
+</div>
+<section class="card"><details class="more"><summary>Feature status (what is built and what is planned)</summary><ul id="features" class="plain-list"></ul></details></section>
+{% endblock %}

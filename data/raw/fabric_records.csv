@@ -1,0 +1,243 @@
+record_id,fabric_type,image_filename,washing_temperature,washing_mode,drying_method,ironing_temperature,label_source,collected_at
+R0001,cotton,cotton_001.jpg,40,Normal,Air dry,medium,expert,2026-02-10
+R0002,cotton,cotton_002.jpg,40,Normal,Air dry,medium,expert,2026-05-17
+R0003,cotton,cotton_003.jpg,40,Normal,Air dry,medium,manual,2026-03-13
+R0004,cotton,cotton_004.jpg,40,Normal,Air dry,medium,expert,2026-09-12
+R0005,cotton,cotton_005.jpg,40,Normal,Air dry,medium,expert,2026-07-11
+R0006,cotton,cotton_006.jpg,40,Normal,Air dry,medium,manual,2026-02-16
+R0007,cotton,cotton_007.jpg,40,Normal,Air dry,medium,manual,2026-09-10
+R0008,cotton,cotton_008.jpg,40,Normal,Air dry,medium,expert,2026-04-27
+R0009,cotton,cotton_009.jpg,40,Normal,Air dry,medium,supplier_label,2026-04-24
+R0010,cotton,cotton_010.jpg,40,Normal,Air dry,medium,expert,2026-05-10
+R0011,cotton,cotton_011.jpg,40,Normal,Air dry,medium,manual,2026-07-20
+R0012,cotton,cotton_012.jpg,40,Normal,Air dry,medium,supplier_label,2026-03-16
+R0013,cotton,cotton_013.jpg,40,Normal,Air dry,medium,supplier_label,2026-02-12
+R0014,cotton,cotton_014.jpg,40,Normal,Air dry,medium,supplier_label,2026-02-21
+R0015,cotton,cotton_015.jpg,40,Normal,Air dry,medium,supplier_label,2026-05-11
+R0016,cotton,cotton_016.jpg,40,Normal,Air dry,medium,expert,2026-08-27
+R0017,cotton,cotton_017.jpg,40,Normal,Air dry,medium,manual,2026-07-12
+R0018,cotton,cotton_018.jpg,,Normal,Air dry,medium,expert,2026-05-21
+R0019,cotton,cotton_019.jpg,40,Normal,Air dry,medium,expert,2026-04-12
+R0020,cotton,cotton_020.jpg,40,Normal,Air dry,medium,manual,2026-04-19
+R0021,cotton,cotton_021.jpg,40,Normal,Air dry,medium,manual,2026-04-13
+R0022,cotton,cotton_022.jpg,40,Normal,Air dry,medium,supplier_label,2026-05-24
+R0023,cotton,cotton_023.jpg,40,Normal,Air dry,medium,expert,2026-06-15
+R0024,cotton,cotton_024.jpg,40,Normal,Air dry,medium,supplier_label,2026-06-16
+R0025,silk,silk_001.jpg,30,Delicate,Air dry flat,low,expert,2026-05-12
+R0026,silk,silk_002.jpg,30,Delicate,Air dry flat,low,expert,2026-03-27
+R0027,silk,silk_003.jpg,30,Delicate,Air dry flat,low,expert,2026-04-15
+R0028,silk,silk_004.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-07-18
+R0029,silk,silk_005.jpg,30,Delicate,Air dry flat,low,expert,2026-09-17
+R0030,silk,silk_006.jpg,30,Delicate,Air dry flat,low,expert,2026-06-11
+R0031,silk,silk_007.jpg,30,Delicate,Air dry flat,low,manual,2026-01-20
+R0032,silk,silk_008.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-05-12
+R0033,silk,silk_009.jpg,30,Delicate,Air dry flat,low,manual,2026-06-16
+R0034,silk,silk_010.jpg,30,Delicate,Air dry flat,low,expert,2026-08-22
+R0035,silk,silk_011.jpg,30,Delicate,Air dry flat,low,expert,2026-08-14
+R0036,silk,silk_012.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-03-17
+R0037,silk,silk_013.jpg,30,Delicate,Air dry flat,low,expert,2026-09-27
+R0038,silk,silk_014.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-07-28
+R0039,silk,silk_015.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-06-17
+R0040,silk,silk_016.jpg,30,Delicate,Air dry flat,low,manual,2026-09-25
+R0041,silk,silk_017.jpg,30,Delicate,Air dry flat,low,manual,2026-01-13
+R0042,silk,silk_018.jpg,30,Delicate,Air dry flat,low,manual,2026-03-23
+R0043,silk,silk_019.jpg,30,Delicate,Air dry flat,low,expert,2026-02-22
+R0044,silk,silk_020.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-08-26
+R0045,silk,silk_021.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-09-10
+R0046,silk,silk_022.jpg,30,Delicate,Air dry flat,low,expert,2026-02-27
+R0047,silk,silk_023.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-06-13
+R0048,silk,silk_024.jpg,30,Delicate,Air dry flat,low,supplier_label,2026-07-15
+R0049,wool,wool_001.jpg,30,Wool,Dry flat,low,supplier_label,2026-01-18
+R0050,wool,wool_002.jpg,30,Wool,Dry flat,low,expert,2026-03-26
+R0051,wool,wool_003.jpg,30,Wool,Dry flat,low,manual,2026-05-26
+R0052,wool,wool_004.jpg,30,Wool,Dry flat,low,expert,2026-04-14
+R0053,wool,wool_005.jpg,30,Wool,Dry flat,low,supplier_label,2026-03-27
+R0054,wool,wool_006.jpg,30,Wool,Dry flat,low,expert,2026-01-20
+R0055,wool,wool_007.jpg,30,Wool,Dry flat,low,supplier_label,2026-01-13
+R0056,wool,wool_008.jpg,30,Wool,Dry flat,low,supplier_label,2026-05-17
+R0057,wool,wool_009.jpg,30,Wool,Dry flat,low,manual,2026-04-28
+R0058,wool,wool_010.jpg,30,Wool,Dry flat,low,manual,2026-02-25
+R0059,wool,wool_011.jpg,30,Wool,Dry flat,low,manual,2026-09-14
+R0060,wool,wool_012.jpg,30,Wool,Dry flat,low,manual,2026-08-27
+R0061,wool,wool_013.jpg,30,Wool,Dry flat,low,manual,2026-05-26
+R0062,wool,wool_014.jpg,30,Wool,Dry flat,low,expert,2026-07-16
+R0063,wool,wool_015.jpg,30,Wool,Dry flat,low,expert,2026-04-19
+R0064,wool,wool_016.jpg,30,Wool,,low,supplier_label,2026-06-24
+R0065,wool,wool_017.jpg,30,Wool,Dry flat,low,expert,2026-08-13
+R0066,wool,wool_018.jpg,30,Wool,Dry flat,low,manual,2026-04-12
+R0067,wool,wool_019.jpg,30,Wool,Dry flat,low,supplier_label,2026-01-28
+R0068,wool,wool_020.jpg,30,Wool,Dry flat,low,expert,2026-04-28
+R0069,wool,wool_021.jpg,30,Wool,Dry flat,low,manual,2026-01-12
+R0070,wool,wool_022.jpg,30,Wool,Dry flat,low,expert,2026-01-17
+R0071,wool,wool_023.jpg,30,Wool,Dry flat,low,manual,2026-01-20
+R0072,wool,wool_024.jpg,30,Wool,Dry flat,low,manual,2026-09-17
+R0073,linen,linen_001.jpg,40,Gentle,Air dry,high,supplier_label,2026-08-16
+R0074,linen,linen_002.jpg,40,Gentle,Air dry,high,expert,2026-03-28
+R0075,linen,linen_003.jpg,40,Gentle,Air dry,high,expert,2026-08-17
+R0076,linen,linen_004.jpg,40,Gentle,Air dry,high,supplier_label,2026-07-16
+R0077,linen,linen_005.jpg,40,Gentle,Air dry,high,manual,2026-02-23
+R0078,linen,linen_006.jpg,40,Gentle,Air dry,high,supplier_label,2026-07-23
+R0079,linen,linen_007.jpg,40,Gentle,Air dry,high,supplier_label,2026-01-13
+R0080,linen,linen_008.jpg,40,Gentle,Air dry,high,manual,2026-07-20
+R0081,linen,linen_009.jpg,40,Gentle,Air dry,high,manual,2026-04-16
+R0082,linen,linen_010.jpg,40,Gentle,Air dry,high,manual,2026-09-24
+R0083,linen,linen_011.jpg,40,Gentle,Air dry,high,manual,2026-07-15
+R0084,linen,linen_012.jpg,40,Gentle,Air dry,high,supplier_label,2026-08-17
+R0085,linen,linen_013.jpg,40,Gentle,Air dry,high,manual,2026-08-27
+R0086,linen,linen_014.jpg,40,Gentle,Air dry,high,manual,2026-01-27
+R0087,linen,linen_015.jpg,40,Gentle,Air dry,high,manual,2026-02-17
+R0088,linen,linen_016.jpg,40,Gentle,Air dry,high,manual,2026-07-25
+R0089,linen,linen_017.jpg,40,Gentle,Air dry,high,supplier_label,2026-04-22
+R0090,linen,linen_018.jpg,40,Gentle,Air dry,high,manual,2026-03-22
+R0091,linen,linen_019.jpg,40,Gentle,Air dry,high,manual,2026-07-18
+R0092,linen,linen_020.jpg,40,Gentle,Air dry,high,supplier_label,2026-05-23
+R0093,linen,linen_021.jpg,40,Gentle,Air dry,high,expert,2026-09-25
+R0094,linen,linen_022.jpg,40,Gentle,Air dry,high,manual,2026-04-19
+R0095,linen,linen_023.jpg,40,Gentle,Air dry,high,manual,2026-01-28
+R0096,linen,linen_024.jpg,40,Gentle,Air dry,high,expert,2026-09-11
+R0097,polyester,polyester_001.jpg,40,Normal,Air dry,low,expert,2026-06-11
+R0098,polyester,polyester_002.jpg,40,Normal,Air dry,low,manual,2026-08-26
+R0099,polyester,polyester_003.jpg,40,Normal,Air dry,low,expert,2026-03-11
+R0100,polyester,polyester_004.jpg,40,Normal,Air dry,low,expert,2026-02-15
+R0101,polyester,polyester_005.jpg,40,Normal,Air dry,low,manual,2026-02-17
+R0102,polyester,polyester_006.jpg,40,,Air dry,low,supplier_label,2026-02-28
+R0103,polyester,polyester_007.jpg,40,Normal,Air dry,low,manual,2026-01-12
+R0104,polyester,polyester_008.jpg,40,Normal,Air dry,low,supplier_label,2026-09-20
+R0105,polyester,polyester_009.jpg,40,Normal,Air dry,low,supplier_label,2026-04-20
+R0106,polyester,polyester_010.jpg,40,Normal,Air dry,low,manual,2026-05-22
+R0107,polyester,polyester_011.jpg,40,Normal,Air dry,low,manual,2026-05-24
+R0108,polyester,polyester_012.jpg,40,Normal,Air dry,low,supplier_label,2026-02-10
+R0109,polyester,polyester_013.jpg,40,Normal,Air dry,low,supplier_label,2026-02-12
+R0110,polyester,polyester_014.jpg,40,Normal,Air dry,low,expert,2026-04-26
+R0111,polyester,polyester_015.jpg,40,Normal,Air dry,low,supplier_label,2026-03-21
+R0112,polyester,polyester_016.jpg,40,Normal,Air dry,low,manual,2026-04-21
+R0113,polyester,polyester_017.jpg,40,Normal,Air dry,low,supplier_label,2026-03-24
+R0114,polyester,polyester_018.jpg,40,Normal,Air dry,low,expert,2026-05-26
+R0115,polyester,polyester_019.jpg,40,Normal,Air dry,low,manual,2026-09-19
+R0116,polyester,polyester_020.jpg,40,Normal,Air dry,low,expert,2026-02-14
+R0117,polyester,polyester_021.jpg,40,Normal,Air dry,low,supplier_label,2026-02-13
+R0118,polyester,polyester_022.jpg,40,Normal,Air dry,low,expert,2026-09-14
+R0119,polyester,polyester_023.jpg,40,Normal,Air dry,low,supplier_label,2026-05-16
+R0120,polyester,polyester_024.jpg,40,Normal,Air dry,low,expert,2026-06-16
+R0121,denim,denim_001.jpg,30,Normal,Air dry,high,expert,2026-05-26
+R0122,denim,denim_002.jpg,30,Normal,Air dry,high,supplier_label,2026-05-11
+R0123,denim,denim_003.jpg,30,Normal,Air dry,high,manual,2026-07-18
+R0124,denim,denim_004.jpg,30,Normal,Air dry,high,manual,2026-01-20
+R0125,denim,denim_005.jpg,30,Normal,Air dry,high,manual,2026-05-15
+R0126,denim,denim_006.jpg,30,Normal,Air dry,high,expert,2026-08-27
+R0127,denim,denim_007.jpg,30,Normal,Air dry,high,expert,2026-07-27
+R0128,denim,denim_008.jpg,30,Normal,Air dry,high,manual,2026-02-12
+R0129,denim,denim_009.jpg,30,Normal,Air dry,high,expert,2026-03-27
+R0130,denim,denim_010.jpg,30,Normal,Air dry,high,manual,2026-06-28
+R0131,denim,denim_011.jpg,30,Normal,Air dry,high,expert,2026-03-23
+R0132,denim,denim_012.jpg,30,Normal,Air dry,high,manual,2026-01-19
+R0133,denim,denim_013.jpg,30,Normal,Air dry,high,supplier_label,2026-01-21
+R0134,denim,denim_014.jpg,30,Normal,Air dry,high,manual,2026-04-13
+R0135,denim,denim_015.jpg,30,Normal,Air dry,high,supplier_label,2026-09-23
+R0136,denim,denim_016.jpg,30,Normal,Air dry,high,expert,2026-03-17
+R0137,denim,denim_017.jpg,30,Normal,Air dry,high,manual,2026-03-23
+R0138,denim,denim_018.jpg,30,Normal,Air dry,high,manual,2026-03-20
+R0139,denim,denim_019.jpg,30,Normal,Air dry,high,supplier_label,2026-04-18
+R0140,denim,denim_020.jpg,30,Normal,Air dry,high,manual,2026-02-22
+R0141,denim,denim_021.jpg,30,Normal,Air dry,high,manual,2026-08-17
+R0142,denim,denim_022.jpg,30,Normal,Air dry,high,manual,2026-08-21
+R0143,denim,denim_023.jpg,30,Normal,Air dry,high,supplier_label,2026-04-17
+R0144,denim,denim_024.jpg,30,Normal,Air dry,high,manual,2026-04-22
+R0145,nylon,nylon_001.jpg,30,Gentle,Air dry,low,supplier_label,2026-05-12
+R0146,nylon,nylon_002.jpg,30,Gentle,Air dry,low,supplier_label,2026-06-26
+R0147,nylon,nylon_003.jpg,30,Gentle,Air dry,low,supplier_label,2026-09-20
+R0148,nylon,nylon_004.jpg,30,Gentle,Air dry,low,manual,2026-02-18
+R0149,nylon,nylon_005.jpg,30,Gentle,Air dry,low,manual,2026-05-11
+R0150,nylon,nylon_006.jpg,30,Gentle,Air dry,low,manual,2026-07-21
+R0151,Cotton ,nylon_007.jpg,30,Gentle,Air dry,low,expert,2026-06-23
+R0152,nylon,nylon_008.jpg,30,Gentle,Air dry,low,expert,2026-09-13
+R0153,nylon,nylon_009.jpg,30,Gentle,Air dry,low,supplier_label,2026-04-18
+R0154,nylon,nylon_010.jpg,30,Gentle,Air dry,low,manual,2026-07-10
+R0155,nylon,nylon_011.jpg,30,Gentle,Air dry,low,expert,2026-09-16
+R0156,nylon,nylon_012.jpg,30,Gentle,Air dry,low,supplier_label,2026-07-12
+R0157,nylon,nylon_013.jpg,30,Gentle,Air dry,low,expert,2026-06-20
+R0158,nylon,nylon_014.jpg,30,Gentle,Air dry,low,expert,2026-02-19
+R0159,nylon,nylon_015.jpg,30,Gentle,Air dry,low,expert,2026-05-23
+R0160,nylon,nylon_016.jpg,30,Gentle,Air dry,low,supplier_label,2026-07-19
+R0161,nylon,nylon_017.jpg,30,Gentle,Air dry,low,expert,2026-03-16
+R0162,nylon,nylon_018.jpg,30,Gentle,Air dry,low,supplier_label,2026-07-15
+R0163,nylon,nylon_019.jpg,30,Gentle,Air dry,low,expert,2026-05-22
+R0164,nylon,nylon_020.jpg,30,Gentle,Air dry,low,expert,2026-01-19
+R0165,nylon,nylon_021.jpg,30,Gentle,Air dry,low,supplier_label,2026-04-23
+R0166,nylon,nylon_022.jpg,30,Gentle,Air dry,low,expert,2026-06-24
+R0167,nylon,nylon_023.jpg,30,Gentle,Air dry,low,supplier_label,2026-08-16
+R0168,nylon,nylon_024.jpg,30,Gentle,Air dry,low,expert,2026-08-15
+R0169,rayon,rayon_001.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-02-19
+R0170,rayon,rayon_002.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-06-12
+R0171,rayon,rayon_003.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-05-17
+R0172,rayon,rayon_004.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-03-10
+R0173,rayon,rayon_005.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-04-25
+R0174,rayon,rayon_006.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-02-24
+R0175,rayon,rayon_007.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-04-22
+R0176,rayon,rayon_008.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-07-17
+R0177,rayon,rayon_009.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-01-13
+R0178,rayon,rayon_010.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-04-15
+R0179,rayon,rayon_011.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-09-24
+R0180,rayon,rayon_012.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-09-17
+R0181,rayon,rayon_013.jpg,30,Gentle,Air dry; avoid wringing,low,manual,2026-08-14
+R0182,rayon,rayon_014.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-09-27
+R0183,rayon,rayon_015.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-06-24
+R0184,rayon,rayon_016.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-09-23
+R0185,rayon,rayon_017.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-08-15
+R0186,rayon,rayon_018.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-08-24
+R0187,rayon,rayon_019.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-04-18
+R0188,rayon,rayon_020.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-08-17
+R0189,rayon,rayon_021.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-08-12
+R0190,rayon,rayon_022.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-05-17
+R0191,rayon,rayon_023.jpg,30,Gentle,Air dry; avoid wringing,low,supplier_label,2026-06-20
+R0192,rayon,rayon_024.jpg,30,Gentle,Air dry; avoid wringing,low,expert,2026-02-14
+R0193,velvet,velvet_001.jpg,30,Gentle,"Air dry hanging, without wringing",none,manual,2026-04-22
+R0194,velvet,velvet_002.jpg,30,Gentle,"Air dry hanging, without wringing",none,expert,2026-03-16
+R0195,velvet,velvet_003.jpg,30,Gentle,"Air dry hanging, without wringing",none,manual,2026-07-23
+R0196,velvet,velvet_004.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-09-24
+R0197,velvet,velvet_005.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-01-16
+R0198,velvet,velvet_006.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-07-28
+R0199,velvet,velvet_007.jpg,30,Gentle,"Air dry hanging, without wringing",none,expert,2026-01-28
+R0200,velvet,velvet_008.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-08-10
+R0201,velvet,velvet_009.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-05-22
+R0202,velvet,velvet_010.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-09-27
+R0203,velvet,velvet_011.jpg,30,Gentle,"Air dry hanging, without wringing",none,expert,2026-04-25
+R0204,velvet,velvet_012.jpg,30,Gentle,"Air dry hanging, without wringing",none,manual,2026-05-23
+R0205,velvet,velvet_013.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-01-22
+R0206,velvet,velvet_014.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-07-15
+R0207,velvet,velvet_015.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-03-27
+R0208,velvet,velvet_016.jpg,30,Gentle,"Air dry hanging, without wringing",none,manual,2026-07-28
+R0209,velvet,velvet_017.jpg,30,Gentle,"Air dry hanging, without wringing",none,expert,2026-01-12
+R0210,velvet,velvet_018.jpg,30,Gentle,"Air dry hanging, without wringing",none,expert,2026-07-14
+R0211,velvet,velvet_019.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-03-11
+R0212,velvet,velvet_020.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-07-20
+R0213,velvet,velvet_021.jpg,30,Gentle,"Air dry hanging, without wringing",none,manual,2026-08-20
+R0214,velvet,velvet_022.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-07-18
+R0215,velvet,velvet_023.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-05-12
+R0216,velvet,velvet_024.jpg,30,Gentle,"Air dry hanging, without wringing",none,supplier_label,2026-01-27
+R0217,blended,blended_001.jpg,30,Gentle,Air dry,low,manual,2026-06-17
+R0218,blended,blended_002.jpg,30,Gentle,Air dry,low,expert,2026-02-11
+R0219,blended,blended_003.jpg,30,Gentle,Air dry,low,manual,2026-04-16
+R0220,blended,blended_004.jpg,30,Gentle,Air dry,low,manual,2026-03-17
+R0221,blended,blended_005.jpg,30,Gentle,Air dry,low,manual,2026-08-13
+R0222,blended,blended_006.jpg,30,Gentle,Air dry,low,expert,2026-04-24
+R0223,blended,blended_007.jpg,30,Gentle,Air dry,low,expert,2026-05-21
+R0224,blended,blended_008.jpg,30,Gentle,Air dry,low,manual,2026-02-15
+R0225,blended,blended_009.jpg,30,Gentle,Air dry,low,supplier_label,2026-02-28
+R0226,blended,blended_010.jpg,30,Gentle,Air dry,low,manual,2026-05-28
+R0227,blended,blended_011.jpg,30,Gentle,Air dry,low,expert,2026-07-22
+R0228,blended,blended_012.jpg,30,Gentle,Air dry,low,expert,2026-04-12
+R0229,blended,blended_013.jpg,30,Gentle,Air dry,low,expert,2026-04-13
+R0230,blended,blended_014.jpg,30,Gentle,Air dry,low,expert,2026-05-13
+R0231,blended,blended_015.jpg,30,Gentle,Air dry,low,expert,2026-01-21
+R0232,blended,blended_016.jpg,30,Gentle,Air dry,low,expert,2026-07-21
+R0233,blended,blended_017.jpg,30,Gentle,Air dry,low,manual,2026-09-20
+R0234,blended,blended_018.jpg,30,Gentle,Air dry,low,manual,2026-07-25
+R0235,blended,blended_019.jpg,30,Gentle,Air dry,low,manual,2026-07-21
+R0236,blended,blended_020.jpg,30,Gentle,Air dry,low,expert,2026-08-14
+R0237,blended,blended_021.jpg,30,Gentle,Air dry,low,supplier_label,2026-03-26
+R0238,blended,blended_022.jpg,30,Gentle,Air dry,low,expert,2026-05-27
+R0239,blended,blended_023.jpg,30,Gentle,Air dry,low,supplier_label,2026-08-23
+R0240,blended,blended_024.jpg,30,Gentle,Air dry,low,expert,2026-05-20
+R9001,cotton,cotton_006.jpg,40,Normal,Air dry,medium,manual,2026-02-16
+R9002,silk,silk_017.jpg,30,Delicate,Air dry flat,low,manual,2026-01-13

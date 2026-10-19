@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}AI-Based Fabric Recognition and Smart Laundry System{% endblock %}
+{% block public %}
+<section class="hero">
+  <h1>AI-Based Fabric Recognition and Smart Laundry System</h1>
+  <p class="lead">Upload a photo of a fabric. The system identifies the material, shows how confident it is, and recommends how to wash, dry and iron it, with a plain-language explanation.</p>
+  <p class="hero-actions">
+    {% if user %}<a class="btn btn-primary" href="/dashboard">Open dashboard</a>
+    {% else %}<a class="btn btn-primary" href="/register">Get started</a> <a class="btn" href="/login">Log in</a>{% endif %}
+  </p>
+</section>
+
+<section class="section" aria-labelledby="how">
+  <h2 id="how">How it works</h2>
+  <ol class="steps">
+    <li><strong>Upload</strong><span>Add a photo of the fabric.</span></li>
+    <li><strong>Identify</strong><span>The system names the fabric and says how sure it is.</span></li>
+    <li><strong>Care</strong><span>You get wash, temperature, drying and ironing advice, with a short reason.</span></li>
+  </ol>
+</section>
+
+<section class="section" aria-labelledby="features">
+  <h2 id="features">Major features</h2>
+  <div class="grid grid-3">
+    <article class="card"><h3>Fabric recognition</h3><p>Ten common fabrics, from cotton and silk to denim and velvet.</p></article>
+    <article class="card"><h3>Laundry assistant</h3><p>Ask a care question and see where the answer came from.</p></article>
+    <article class="card"><h3>History and analytics</h3><p>Every analysis is saved, with simple charts of your own data.</p></article>
+  </div>
+</section>
+
+<section class="section two-col">
+  <div>
+    <h2>About the AI and machine learning</h2>
+    <p>A machine-learning model looks at colour and texture. When it is unsure, the app says so and asks you to check the care label.</p>
+  </div>
+  <div>
+    <h2>The smart laundry idea</h2>
+    <p>Fabric goes in, care rules come out. The rules live in a data file, so a washing machine or laundry service could reuse them.</p>
+  </div>
+</section>
+{% endblock %}

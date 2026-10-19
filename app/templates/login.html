@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Log in{% endblock %}
+{% block public %}
+<section class="auth-card card">
+  <h1>Log in</h1>
+  <form id="login-form" novalidate>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="username" required>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <p id="form-error" class="alert alert-danger" role="alert" hidden></p>
+    <button class="btn btn-primary btn-block" type="submit">Log in</button>
+  </form>
+  <p class="muted small">New here? <a href="/register">Create an account</a>.</p>
+  <p class="muted small">Demo (synthetic) account after running the seed script: <code>demo@fabric-demo.local</code></p>
+</section>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Data engineering{% endblock %}
+{% block content %}
+<h1>Data engineering</h1>
+<p class="muted">An Extract, Validate, Transform, Load pipeline (pandas) over raw fabric records and the raw image folder.</p>
+<section class="card">
+  <div class="row-between">
+    <h2>ETL status</h2>
+    <div>
+      <button class="btn btn-primary" id="run-baseline" type="button">Run on baseline data</button>
+      <button class="btn" id="run-messy" type="button">Run on messy test data</button>
+    </div>
+  </div>
+  <ol class="pipeline" id="pipeline" aria-label="ETL pipeline stages"></ol>
+  <p id="etl-meta" class="muted small"></p>
+</section>
+<div class="grid grid-4 stats" id="etl-stats"></div>
+<div class="grid grid-2">
+  <section class="card"><h2>Class distribution (valid records)</h2><div class="chart-box"><canvas id="c-etl-dist" role="img" aria-label="Class distribution"></canvas></div></section>
+  <section class="card"><h2>Issues found</h2><div id="issues"></div></section>
+</div>
+<div class="grid grid-2">
+  <section class="card"><h2>Image dataset</h2><div id="image-info"></div></section>
+  <section class="card"><details class="more"><summary>Rejected record samples</summary><div class="table-wrap"><table><thead><tr><th>Record</th><th>Fabric</th><th>File</th><th>Issues</th></tr></thead><tbody id="invalid-body"></tbody></table></div></section>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Security{% endblock %}
+{% block content %}
+<h1>Security</h1>
+<p class="muted">Controls implemented in this application. Secret values are never shown.</p>
+<section class="card"><h2>Security controls</h2><ul id="controls" class="plain-list"></ul></section>
+<section class="card"><h2>My recent security events</h2><div class="table-wrap"><table><thead><tr><th>Time</th><th>Action</th><th>Status</th><th>IP address</th><th>Detail</th></tr></thead><tbody id="audit-body"></tbody></table></div></section>
+{% endblock %}

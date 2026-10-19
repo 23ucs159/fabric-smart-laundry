@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-theme="{{ theme }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="{{ csrf_token }}">
+  <title>{% block title %}{{ page|title }}{% endblock %} | Fabric Smart Laundry</title>
+  <link rel="icon" type="image/svg+xml" href="/static/img/logo.svg">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body data-page="{{ page }}">
+<a class="skip-link" href="#main">Skip to main content</a>
+{% if user %}
+<div class="shell">
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="/dashboard"><img src="/static/img/logo.svg" alt="" width="30" height="30"><span>Fabric Smart Laundry</span></a>
+    <nav>
+      <ul>
+        {% for key, href, label in nav_main %}
+        <li><a href="{{ href }}" {% if page == key or (page == 'result' and key == 'history') %}aria-current="page"{% endif %}>{{ label }}</a></li>
+        {% endfor %}
+      </ul>
+      <p class="nav-label">More</p>
+      <ul>
+        {% for key, href, label in nav_more %}
+        <li><a href="{{ href }}" {% if page == key %}aria-current="page"{% endif %}>{{ label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="sidebar-foot">
+      <p class="muted small">Signed in as <strong>{{ user.name }}</strong></p>
+      <button type="button" class="btn btn-ghost btn-block" id="logout-btn">Log out</button>
+    </div>
+  </aside>
+  <main id="main" class="content" tabindex="-1">
+    {% block content %}{% endblock %}
+  </main>
+</div>
+{% else %}
+<header class="public-header">
+  <a class="brand" href="/"><img src="/static/img/logo.svg" alt="" width="30" height="30"><span>Fabric Smart Laundry</span></a>
+  <nav aria-label="Account">
+    <a href="/login">Log in</a>
+    <a class="btn btn-primary" href="/register">Create account</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  {% block public %}{% endblock %}
+</main>
+<footer class="public-footer muted small">Fabric Smart Laundry. Care advice is a guide, so always check the garment label.</footer>
+{% endif %}
+<div id="toast" role="status" aria-live="polite"></div>
+{% if user %}<script src="/static/js/chart.umd.js"></script>{% endif %}
+<script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Smart assistant{% endblock %}
+{% block content %}
+<h1>Smart assistant</h1>
+<p class="muted">Ask about washing, drying, ironing, detergent or care symbols. Answers use approved care documents and rules only.</p>
+<p id="llm-status" class="badge"></p>
+<section class="card chat">
+  <div id="chat-log" class="chat-log" aria-live="polite" aria-label="Conversation"></div>
+  <div id="suggestions" class="chips" aria-label="Suggested questions"></div>
+  <form id="chat-form" class="chat-form">
+    <label for="chat-input" class="sr-only">Your question</label>
+    <input id="chat-input" type="text" maxlength="500" placeholder="How should I wash wool?" autocomplete="off" required>
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+</section>
+{% endblock %}

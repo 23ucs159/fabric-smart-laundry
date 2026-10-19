@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Create account{% endblock %}
+{% block public %}
+<section class="auth-card card">
+  <h1>Create account</h1>
+  <form id="register-form" novalidate>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="username" required>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="new-password" required aria-describedby="pw-hint">
+    <p id="pw-hint" class="muted small">At least 8 characters, with a letter and a digit.</p>
+    <label for="confirm">Confirm password</label>
+    <input id="confirm" name="confirm" type="password" autocomplete="new-password" required>
+    <p id="form-error" class="alert alert-danger" role="alert" hidden></p>
+    <button class="btn btn-primary btn-block" type="submit">Create account</button>
+  </form>
+  <p class="muted small">Already registered? <a href="/login">Log in</a>.</p>
+</section>
+{% endblock %}

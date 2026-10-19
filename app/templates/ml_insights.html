@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}ML insights{% endblock %}
+{% block content %}
+<h1>ML insights</h1>
+<div id="ml-banner" class="alert alert-info" role="note"></div>
+<div class="grid grid-4 stats" id="ml-stats"></div>
+<section class="card"><h2>Model</h2><dl id="ml-model" class="kv"></dl><ul id="ml-classes" class="chips"></ul></section>
+<section class="card">
+  <details class="more"><summary>Detailed metrics by fabric</summary>
+    <div class="table-wrap"><table><thead><tr><th>Fabric</th><th>Precision</th><th>Recall</th><th>F1-score</th></tr></thead><tbody id="ml-per-class"></tbody></table></div></details>
+  <details class="more"><summary>Confusion matrix</summary>
+    <p class="muted small">Rows are the true fabric, columns are what the model predicted.</p><div class="table-wrap" id="ml-confusion"></div></details>
+  <details class="more"><summary>Limitations</summary><ul id="ml-limits"></ul></details>
+</section>
+<section class="card"><h2>Recent predictions</h2><p id="ml-synth" class="muted small" hidden>Includes Synthetic Demo Data.</p>
+  <div class="table-wrap"><table><thead><tr><th>Date</th><th>Fabric</th><th>Confidence</th></tr></thead><tbody id="ml-preds"></tbody></table></div></section>
+{% endblock %}

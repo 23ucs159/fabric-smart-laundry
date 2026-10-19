@@ -1,0 +1,26 @@
+# Quick start (SQLite, single container):   docker compose up --build
+# With PostgreSQL (production-like):        docker compose --profile postgres up --build
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    env_file: [.env]
+    environment:
+      # Overridden here so the compose file works even with a minimal .env
+      DATABASE_URL: ${DATABASE_URL:-sqlite:////app/data/app.db}
+    volumes:
+      - app-data:/app/data
+
+  db:
+    image: postgres:16-alpine
+    profiles: ["postgres"]
+    environment:
+      POSTGRES_USER: fabric
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: fabric
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+
+volumes:
+  app-data:
+  pg-data:

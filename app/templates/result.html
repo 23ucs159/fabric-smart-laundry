@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Analysis result{% endblock %}
+{% block content %}
+<p><a href="/history">&larr; Back to history</a></p>
+<h1>Analysis result</h1>
+<div id="analysis-root" data-analysis-id="{{ analysis_id }}" class="grid grid-2">
+  <section class="card"><h2>Image</h2><div id="image-box"></div>
+    <p id="note-box" class="muted small"></p></section>
+  <section class="card"><div id="result"><p class="muted">Loading…</p></div></section>
+</div>
+<section class="card">
+  <h2>Record the wash mode you chose</h2>
+  <div class="inline-form">
+    <label for="mode-select">Washing mode</label>
+    <select id="mode-select"></select>
+    <button class="btn btn-primary" id="mode-save" type="button">Save choice</button>
+  </div>
+  <button class="btn btn-danger" id="delete-btn" type="button">Delete this analysis</button>
+</section>
+{% endblock %}
