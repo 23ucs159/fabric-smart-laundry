@@ -1,3 +1,5 @@
+deployed link: 
+             https://fabric-smart-laundry.onrender.com/api/health
 # AI-Based Fabric Recognition and Smart Laundry System
 
 Upload a photo of a fabric. The app names the fabric, says how sure it is, and gives simple care advice
